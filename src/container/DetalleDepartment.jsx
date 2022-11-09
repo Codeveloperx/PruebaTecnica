@@ -1,4 +1,5 @@
 import React from 'react'
+import TableCity from '../components/TableCity'
 
 const DetalleDepartment = () => {
   return (
@@ -12,6 +13,7 @@ const DetalleDepartment = () => {
     </p>
 
     <h5 className="font-bold text-lg mt-6">Ciudades</h5>
+    <TableCity/>
   </article> 
   )
 }
